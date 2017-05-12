@@ -68,8 +68,8 @@ li.drop-down-menu {
 .drop-down-content {
   display: none;
   position: absolute;
-  border-left: 3px solid rgb(255, 10, 10);
-  border-right: 3px solid rgb(255, 10, 10);
+  border-left: 3px solid limegreen;
+  border-right: 3px solid limegreen;
   margin: 0;
   background-color: gray;
   min-width: 4em;
@@ -92,11 +92,11 @@ li.drop-down-menu {
 
 .drop-down-content:hover .drop-down-content:hover a {
   color: darkgreen;
-  background-color: rgb(255, 170, 172);
+  background-color: limegreen;
 }
 
 #active {
-  color: limegreen;
+  color: black;
 }
 
 img {
@@ -119,11 +119,11 @@ p.body-title {
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: white;
   margin: 30px 10%;
   padding: 50px 0;
   min-height: 5em;
-  border-top: 2px solid rgb(255, 10, 10);
+  border-top: 2px solid limegreen;
 }
   
 
@@ -189,7 +189,7 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-    background-color: rgb(255, 40, 40);
+    background-color: limegreen);
 }
 
 
