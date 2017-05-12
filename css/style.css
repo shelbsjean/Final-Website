@@ -125,40 +125,7 @@ footer {
   min-height: 5em;
   border-top: 2px solid rgb(255, 10, 10);
 }
-
-
-  }
-  .about-main-content div {
-    flex-direction: row;
-  }
-}
-
-@media (max-width: 585px) {
-  .header-title {
-    font-size: 14pt;
-  }
-  li a {
-    font-size: 1em;
-    padding: 8% 0;
-  }
-}
-
-@media (max-width: 445px) {
-  .header-title {
-    font-size: 12pt;
-  }
-  li a {
-    padding: 4% 0;
-  }
-  .about-main-content div {
-    flex-direction: column;
-  }
-}
-
-@keyframes dropdown {
-    0%   {opacity: 0;}
-    100% {opacity: 100;}
-}
+  
 
 /* project pages */
 
@@ -203,7 +170,7 @@ footer {
 input[type=text], input[type=email], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid lightgrey;
+    border: 1px solid white;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -230,7 +197,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: lightgrey;
     padding: 20px;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* picture portfolio */
+
